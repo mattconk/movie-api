@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+html{
+	background-color: #BF0B1A;	
+}
+
+
+body {
+	margin: 0 auto;
+	width: 90%;
+	font: 14px/20px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	background: white;
+	}
+
+header, footer, section, aside, nav, article {
+	display: block;
+	background-color: white;
+	width: auto;	
+	margin: 5px auto;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	}
+
+header{
+	background-color: #BF0B1A;	
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+footer{
+	background-color: #BF0B1A;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+footer p{
+	font-size: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 5px;
+	padding: 0px 5px 0px 5px;
+	color: black;
+}
+
+article p{
+	clear: both;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 5px;
+	padding: 10px 5px 10px 5px;
+	color: black;
+}
+
+
+article{
+	margin-bottom: 20px;	
+}
+
+h1 {
+	font-size: 48px;
+	padding: 20px;
+	text-shadow: 2px 2px 2px #000;
+	color: white;
+	}
+
+h2 {
+	font-size: 36px;
+	padding: 20px;
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bold;
+	}
+
+h3 {
+	font-size: 24px;
+	padding: 20px 20px 20px 0px;
+	font-weight: bold;
+	}
+
+.search_results{
+	color: #FF0000;	
+}
+
+article h3 {
+	font-size: 18px;
+	padding: 20px 20px 20px 0px;
+	font-weight: bold;
+	}
+
+p{
+	font-family: 'Fredoka One', cursive;
+	margin-top: 5px;
+	padding: 0px 5px 0px 5px;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #489100;
+}
+
+article{
+	padding-left: 30px;
+	width: auto;
+}
+
+table{
+	width: auto;
+	margin-left: 20px;	
+}
+
+th{
+	font-weight: bolder;
+	text-align: left;
+	padding:5px;
+	background-color: green;
+	color: #FFFFFF;
+	border: medium solid green;
+	font-size: 10px;
+}
+
+td{
+	text-align: left;
+	border: medium solid green;
+	padding:5px;
+	vertical-align: middle;
+}
+
+.poster{
+	width: 100px;
+	text-align: center;
+}
+.title{
+	width: 300px;
+	font-weight: bold;
+}
+.year{
+	width: 50px;
+}
+
+.tomato {
+
+}
+
+td p{
+	font-family: 'Fredoka One', cursive;
+	margin-top: 5px;
+	padding: 0px 5px 0px 5px;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #489100;
+	text-align: center;
+
+}
+
+nav{
+	padding-bottom: 0px;
+}
+
+nav .menu {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+nav .menu ul {
+	margin: 0;
+	padding: 17px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+nav .menu li {
+	display: block;
+	float: left;
+}
+
+nav .menu a {
+	display: block;
+	float: left;
+	margin-right: 5px;
+	padding: 0px 15px;
+	text-decoration: none;
+	color: #F2CB05;
+	background-color: #489100;
+}
+
+nav .menu a:hover {
+	color: #489100;
+	background-color: #F2CB05;
+	font-weight: bold;
+}
+
+.box{
+	width: 300px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.submit{
+	
+}
+.about h3{
+	clear: both;
+	font-size: 24px;
+	padding-top: 15px;
+}
+.about h4{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 10px;
+	text-decoration: underline;
+}
+.about p{
+	font-size: 16px;
+	padding-left: 30px;
+	font-weight: normal;
+}
+.about ol{
+	font-size: 16px;
+	padding-left:65px;
+	list-style-type: decimal;
+}
+.about ul{
+	padding-top: 10px;
+	font-size: 16px;
+	padding-left:45px;
+	list-style-type: none;
+}
